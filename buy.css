@@ -1,0 +1,64 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.party {
+    position: relative;
+}
+.dance {
+    top: 48.9%;
+    left: 48.9%;
+    position: absolute;
+    height: 2%;
+    width: 2%;
+    background-image: url(http://media.giphy.com/media/1u7DMXdfSBO8M/giphy.gif);
+    background-size: cover;
+    transition: all 2s;
+}
+.burger {
+    opacity: 0;
+}
+#burger1 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#burger2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#burger3 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+#burger4 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.mouse {
+    opacity: 0;
+}
+#party .mouse:hover~.dance {
+    transform: scale(52) rotate(720deg);
+    transition: 3s;
+    transition-delay: .2s;
+    opacity: 1;
+    transition-timing-function: ease-in-out;
+}
+.mouse:hover {
+    opacity: 1;
+}
+#party .mouse:hover~.burger {
+    opacity: 1;
+    transition: 3s;
+    transition-delay: 2.8s;
+}
+.mouse {
+    margin-top: -82px;
+    margin-left: -88px;
+    z-index: 4;
+    display: block;
+}

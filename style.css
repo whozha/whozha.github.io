@@ -1,0 +1,200 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: grey;
+    z-index: -1;
+}
+#header.header-image {
+    background-image: url("header.png");
+    height: 95%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#kant01 {
+    top: 95%;
+    height: 4px;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    background-color: black;
+    z-index: 2;
+}
+.Section01 {
+    top: 95.1%;
+    height: 104.5%;
+    width: 100%;
+    float: left;
+    background-size: cover;
+    background-image: url("meat.jpg");
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+#paper.birger {
+    margin-top: 11%;
+    margin-left: 17%;
+    height: 75%;
+    width: 25%;
+    float: left;
+    z-index: 3;
+    position: absolute;
+    background-size: cover;
+    background-image: url("paper.jpg");
+    background-repeat: no-repeat;
+    z-index: 1;
+    outline: white solid 1px;
+}
+#text01 {
+    padding-top: 3%;
+    padding-left: 1%;
+    height: 100%;
+    width: 100%;
+    float: left;
+    z-index: 3;
+    font-size: 21.8px;
+    font-family: cursive;
+}
+#list {
+    margin-top: 5px;
+    margin-left: 30px;
+    padding-right: 20px;
+    font-size: 19px;
+}
+#text02 {
+    margin-top: 2%;
+    margin-left: 5%;;
+    position: absolute;
+    text-shadow: -1px -1px 0 #999, 1px -1px 0 #999, -1px 1px 0 #999, 1px 1px 0 #999;
+    z-index: 4;
+    font: 40px arial, verdana, sans-serif;
+}
+#expert.expert-image {
+    margin-top: 11%;
+    margin-left: 8%;
+    height: 75%;
+    width: 25%;
+    left: 50%;
+    background-size: cover;
+    position: absolute;
+    background-image: url("expert.jpg");
+    background-repeat: no-repeat;
+    z-index: 2;
+    outline: white solid 1px;
+}
+.menu {
+    margin-top: 105%;
+    margin-left: 35%;
+    padding-right: 145px;
+}
+.dropdown {
+    background: red;
+    list-style-type: none;
+    height: 30px;
+    display: none;
+}
+.dropdown li a {
+    padding: 9px 13px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font: 12px arial, verdana, sans-serif;
+}
+.dropdown ul {
+    position: absolute;
+    left: -999px;
+    top: -999px;
+    list-style-type: none;
+}
+.dropdown li:hover {
+    position: relative;
+    background: red;
+}
+#expert:hover .dropdown {
+    display: block;
+}
+.dropdown li:hover ul {
+    left: 0px;
+    top: 30px;
+    background: red;
+    padding: 0px;
+}
+.dropdown li:hover ul li a {
+    padding: 5px;
+    display: block;
+    width: 117px;
+    text-indent: 15px;
+    background-color: #bf2f2f;
+}
+.dropdown li:hover ul li a:hover {
+    background: #871919;
+}
+#kant02 {
+    top: 95%;
+    height: 4px;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    background-color: black;
+    z-index: 2;
+}
+#Section02 {
+    top: 200%;
+    height: 101%;
+    width: 100%;
+    float: left;
+    position: absolute;
+    background-size: cover;
+    background-image: url("grilledmeat.jpg");
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+#text03 {
+    margin-top: 1%;
+    left: 31%;
+    right: 31%;
+    height: 10%;
+    position: absolute;
+    z-index: 2;
+    float: left;
+    font: 50px arial, verdana, sans-serif;
+    text-shadow: -1px -1px 0 #999, 1px -1px 0 #999, -1px 1px 0 #999, 1px 1px 0 #999;
+}
+#slide {
+    margin-top: 6%;
+    margin-left: 15%;
+    margin-right: 15%;
+    z-index: 2;
+    height: 70%;
+    width: 70%;
+    outline: white solid 1px;
+}
+#button01.buy01 {
+    top: 85.3%;
+    left: 30%;
+    height: 13%;
+    width: 25%;
+    background-size: contain;
+    position: absolute;
+    background-image: url("button01.png");
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+#button02.buy02 {
+    top: 85.3%;
+    left: 57%;
+    height: 13%;
+    width: 12%;
+    background-size: contain;
+    position: absolute;
+    background-image: url("button02.png");
+    background-repeat: no-repeat;
+    float: left;
+    z-index: 3;
+}
